@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Harry.unity
     guid: e4588cc0229ab4a78bb506015f6948e1
   - enabled: 1
-    path: Assets/Scenes/Puzzles/Puzzle level harry.unity
+    path: Assets/Scenes/Puzzles/Fontein Puzzel.unity
     guid: 7c2f90a8827134806a95a7ad98682794
   - enabled: 1
     path: Assets/Scenes/Harry2.unity
