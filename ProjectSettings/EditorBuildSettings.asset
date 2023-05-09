@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Titelscherm.unity
     guid: 62dbeb6033f6048e4adc06fa1d5b4d39
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/TestCutScene.unity
+    path: Assets/Scenes/Cutscenes/cutscene1.unity
     guid: 51ce55e75d69c4e2aae3af00295dffd4
   - enabled: 1
     path: Assets/Scenes/Grace.unity
