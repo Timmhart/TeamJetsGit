@@ -20,11 +20,21 @@ public class Shooting : MonoBehaviour
 
     public void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        // Get the mouse position in world coordinates
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = -Camera.main.transform.position.z;
+        mousePos = Camera.main.ScreenToWorldPoint(mousePos);
+
+        // Calculate the direction from the fire point to the mouse position
+        Vector2 direction = (mousePos - firePoint.position).normalized;
+
+        // Instantiate the bullet
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+
+        // Set the velocity of the bullet based on the direction and force
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
-        
-        
+        rb.velocity = direction * bulletForce;
+
         // Destroy bullet after specified lifetime
         Destroy(bullet, bulletLifetime);
     }
