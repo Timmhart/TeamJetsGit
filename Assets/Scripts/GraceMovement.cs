@@ -15,12 +15,12 @@ public class GraceMovement : MonoBehaviour
 
     void Update()
     {
-            movement.x = Input.GetAxisRaw("Horizontal");
-            movement.y = Input.GetAxisRaw("Vertical");
+            movement.x = Input.GetAxisRaw("HorizontalGrace");
+            movement.y = Input.GetAxisRaw("VerticalGrace");
 
-            animator.SetFloat("Horizontal", movement.x);
-            animator.SetFloat("Vertical", movement.y);
-            animator.SetFloat("Speed", movement.sqrMagnitude);
+            animator.SetFloat("HorizontalGrace", movement.x);
+            animator.SetFloat("VerticalGrace", movement.y);
+            animator.SetFloat("SpeedGrace", movement.sqrMagnitude);
     }
 
       void FixedUpdate()

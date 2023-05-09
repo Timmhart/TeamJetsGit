@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Candle : MonoBehaviour
 {
-    private bool isLit = false;
+    // private bool isLit = false;
     public GameObject prefab; // the prefab to instantiate on collision
 
     private void OnCollisionEnter2D(Collision2D collision)

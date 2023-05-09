@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c0033d0d88acb4a998478f8284ec7187
+guid: 7380b2a4c0ac44a5a8e74422ce9c2113
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,32 +117,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: grace-walking-up_0
+      name: grace-walking-up2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 361
-        height: 726
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2177bf53774a54f7789aa1692bbd5d66
-      internalID: 366347860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: grace-walking-up_1
-      rect:
-        serializedVersion: 2
-        x: 356
-        y: 0
+        y: 2
         width: 362
         height: 726
       alignment: 0
@@ -152,19 +131,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03399c1880107451fa12d778f5bbe5c2
-      internalID: -1052376684
+      spriteID: 789e9bf7cc2cf4e5095b969bed70c091
+      internalID: 1346828065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: grace-walking-up_2
+      name: grace-walking-up2_1
       rect:
         serializedVersion: 2
-        x: 682
+        x: 405
         y: 0
-        width: 361
+        width: 362
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c308b80e8e54042bb54a658eb0be78
+      internalID: -1470799294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grace-walking-up2_2
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2
+        width: 362
         height: 726
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -173,19 +173,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a896b3dbba0d44bb58a4245e415209d1
-      internalID: -791574716
+      spriteID: ba98d6e146bd846f8a5f8b1b5b29f451
+      internalID: 464000142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: grace-walking-up_3
+      name: grace-walking-up2_3
       rect:
         serializedVersion: 2
-        x: 1066
-        y: 0
-        width: 361
+        x: 1219
+        y: 2
+        width: 362
         height: 726
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -194,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30204cef484b5407cb52fcebefe9c1ad
-      internalID: 466829505
+      spriteID: cdbd7ccb612534b269935552717055d6
+      internalID: -66615805
       vertices: []
       indices: 
       edges: []
@@ -211,10 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      grace-walking-up_0: 366347860
-      grace-walking-up_1: -1052376684
-      grace-walking-up_2: -791574716
-      grace-walking-up_3: 466829505
+      grace-walking-up2_0: 1346828065
+      grace-walking-up2_1: -1470799294
+      grace-walking-up2_2: 464000142
+      grace-walking-up2_3: -66615805
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
