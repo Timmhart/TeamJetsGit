@@ -20,7 +20,7 @@ public class LoadPuzzle1 : MonoBehaviour
         if (loadPuzzle == true)
         {
             loadPuzzle = false; //we dont want to load the scene multiple times
-            SceneManager.LoadScene("Puzzle level harry");
+            SceneManager.LoadScene("Puzzle level harry 1");
         }   
     }
  
