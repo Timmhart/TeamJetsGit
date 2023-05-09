@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GraceMovement : MonoBehaviour
+public class HarryMovement : MonoBehaviour
 {
     public float speed = 1f;
 
@@ -15,12 +15,12 @@ public class GraceMovement : MonoBehaviour
 
     void Update()
     {
-            movement.x = Input.GetAxisRaw("HorizontalGrace");
-            movement.y = Input.GetAxisRaw("VerticalGrace");
+            movement.x = Input.GetAxisRaw("HorizontalHarry");
+            movement.y = Input.GetAxisRaw("VerticalHarry");
 
-            animator.SetFloat("HorizontalGrace", movement.x);
-            animator.SetFloat("VerticalGrace", movement.y);
-            animator.SetFloat("SpeedGrace", movement.sqrMagnitude);
+            animator.SetFloat("HorizontalHarry", movement.x);
+            animator.SetFloat("VerticalHarry", movement.y);
+            animator.SetFloat("SpeedHarry", movement.sqrMagnitude);
     }
 
       void FixedUpdate()
