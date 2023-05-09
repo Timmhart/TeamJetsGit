@@ -6,6 +6,12 @@ public class MessagePop : MonoBehaviour
 {
     public GameObject message;
 
+
+    void Start()
+    {
+        message.SetActive(false);
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.tag == "Grace" || other.gameObject.tag == "Harry")
