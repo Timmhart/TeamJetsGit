@@ -124,8 +124,8 @@ TextureImporter:
         y: 4
         width: 289
         height: 609
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5502182, y: 0.073876195}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: harry-walking-down_1
       rect:
         serializedVersion: 2
-        x: 400
-        y: 4
+        x: 399
+        y: 3
         width: 289
         height: 609
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5289463, y: 0.06868219}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,8 +166,8 @@ TextureImporter:
         y: 4
         width: 289
         height: 609
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5351527, y: 0.06672686}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,8 +187,8 @@ TextureImporter:
         y: 0
         width: 289
         height: 613
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.53580797, y: 0.0936939}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
