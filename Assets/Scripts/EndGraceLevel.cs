@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class EndGraceLevel : MonoBehaviour
 {
     public bool MustLoadScene = false;
+    
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -16,6 +17,7 @@ public class EndGraceLevel : MonoBehaviour
         {
             MustLoadScene = false;//we dont want to load the scene multible times
             SceneManager.LoadScene("Harry");
+            // FindObjectOfType<GameManager>().EndGraceLevel();
         }   
     }
  

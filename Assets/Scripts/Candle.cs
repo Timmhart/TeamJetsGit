@@ -5,13 +5,30 @@ public class Candle : MonoBehaviour
     // private bool isLit = false;
     public GameObject prefab; // the prefab to instantiate on collision
 
-    private void OnTriggerEnter2D(Collider2D collision)
+   private void OnTriggerEnter2D(Collider2D collision)
+{
+    if (collision.gameObject.CompareTag("Bullet"))
     {
-        if (collision.gameObject.CompareTag("Bullet"))
-        {
-            Instantiate(prefab, transform.position, transform.rotation); // instantiate the prefab at the same position and rotation as the original object
-            Destroy(gameObject); // destroy the original object
-        }
+        Debug.Log("Bullet collided with candle");
+        Instantiate(prefab, transform.position, transform.rotation);
+        Destroy(gameObject);
+        GameManager.instance.EndGraceLevel();
+
+        GameManager gameManager = FindObjectOfType<GameManager>();
+
+        // Check which candle has been collided with and set the corresponding boolean value in the GameManager
+            if (gameObject.name == "Candle1")
+            {
+                gameManager.candle1 = true;
+            }
+            else if (gameObject.name == "Candle2")
+            {
+                gameManager.candle2 = true;
+            }
+
+            // Call the EndGraceLevel method to check if both candles have been lit
+            gameManager.EndGraceLevel();
     }
+}
 }
 
