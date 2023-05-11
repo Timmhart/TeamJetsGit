@@ -60,6 +60,7 @@ public class MovePuzzleScript : MonoBehaviour
             this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
             finish = true;
 
+            GameObject.Find("PointsHandler").GetComponent<WinScript>().AddPoints();
             GameObject.Find("PointsHandler").GetComponent<WinSchaap>().AddPoints();
         } else 
         {
