@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Titelscherm.unity
+    path: Assets/Scenes/Conrtolscherm.unity
     guid: 62dbeb6033f6048e4adc06fa1d5b4d39
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Vgm is dit niks.unity
