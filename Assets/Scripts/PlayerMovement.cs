@@ -32,8 +32,8 @@ public class PlayerMovement : MonoBehaviour
         cameraHarry.SetActive(true);
         imageGrace.SetActive(false);
         imageHarry.SetActive(true);
-        GameManager.instance.shootingGrace.enabled = false;
-        GameManager.instance.shootingHarry.enabled = true;
+        // GameManager.instance.shootingGrace.enabled = false;
+        // GameManager.instance.shootingHarry.enabled = true;
     }
 
     void Update()
