@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Titelscherm 1.unity
+    guid: 2d64754c787274fd788830d56900fd44
+  - enabled: 1
     path: Assets/Scenes/Conrtolscherm.unity
     guid: 62dbeb6033f6048e4adc06fa1d5b4d39
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/Vgm is dit niks.unity
-    guid: 51ce55e75d69c4e2aae3af00295dffd4
+    path: Assets/Scenes/Cutscenes/Cutscene 1.unity
+    guid: 89627983d534c477abdd758532a22a15
   - enabled: 1
     path: Assets/Scenes/Grace.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
@@ -26,6 +29,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kat.unity
     guid: f572cb05d89c9492ab38183055ed1166
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene 2.unity
+    guid: c0f900ecb06595f4fa47e1d62c693ed8
+  - enabled: 1
+    path: Assets/Scenes/Kat 1.unity
+    guid: 5651a538c29cc4356a3705155357b022
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene 3.unity
+    guid: 98846743f4f799248989f122d44e9c72
   - enabled: 1
     path: Assets/Scenes/Bos.unity
     guid: 437a977ab59954149bdd8e3cb968e575
