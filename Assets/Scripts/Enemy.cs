@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public GameObject quest0;
+    public GameObject quest1;
+    public GameObject quest2;
     public float speed = 3.0f; // Enemy speed
     public float stoppingDistance = 1.0f; // Distance at which enemy will stop following target
     public float sightRange = 5.0f; // Maximum distance the enemy can see the target
@@ -11,6 +14,13 @@ public class Enemy : MonoBehaviour
     public Transform target2; // The second target's transform
     public GameObject enemy;
 
+
+    private void Start()
+    {
+        quest0.SetActive(true);
+        quest1.SetActive(false);
+        quest2.SetActive(false);
+    }
     private void Update()
     {
         if (target1 != null && target2 != null)
@@ -39,10 +49,13 @@ public class Enemy : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.name == "Harry")
+        if (other.gameObject.CompareTag("axe"))
         {
             Debug.Log("Enemy is dead");
-            // Destroy(enemy);
+            Destroy(enemy);
+            quest0.SetActive(false);
+            quest1.SetActive(true);
+            quest2.SetActive(false);
         }
     }
 }

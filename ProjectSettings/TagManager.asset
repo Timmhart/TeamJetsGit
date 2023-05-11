@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Harry
   - Enemy
+  - axe
   layers:
   - Default
   - TransparentFX

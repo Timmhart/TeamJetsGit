@@ -14,6 +14,9 @@ public class GameManager : MonoBehaviour
 
     public Vector3 respawnPos;
 
+    public ShootingHarry shootingHarry;
+    public ShootingGrace1 shootingGrace;
+
     private void Start()
     {
         instance = this;

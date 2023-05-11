@@ -2,12 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShootingGrace : MonoBehaviour
+public class ShootingHarry : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
     public float bulletForce = 20f;
     public float bulletLifetime = 1f; // Time until bullet is destroyed
+    // public static ShootingHarry shootingHarry;
+
+
+    public void Start()
+    {
+        // shootingHarry = this;
+    }
 
     // Update is called once per frame
     public void Update()

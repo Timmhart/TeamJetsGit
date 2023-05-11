@@ -603,12 +603,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 180454226}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63057170450ea43acaeaa4296e97300d, type: 3}
+  m_Script: {fileID: 11500000, guid: 01b9d51e0c03747bf82200b17bc45bb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1004445228}
   bulletPrefab: {fileID: 5460635038863686494, guid: 572a260f5327e4596be152037b64ccb5, type: 3}
-  bulletForce: 5
+  bulletForce: 20
   bulletLifetime: 1
 --- !u!1 &204729790
 GameObject:
@@ -1007,6 +1007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 331909842}
   - component: {fileID: 331909841}
+  - component: {fileID: 331909843}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1033,6 +1034,8 @@ MonoBehaviour:
   questTutorialGrace2: {fileID: 1406630513}
   loadSceneDelay: 1
   respawnPos: {x: 0, y: 0, z: 0}
+  shootingHarry: {fileID: 0}
+  shootingGrace: {fileID: 180454239}
 --- !u!4 &331909842
 Transform:
   m_ObjectHideFlags: 0
@@ -1041,13 +1044,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331909840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.566467, y: 12.707336, z: -4.0471783}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &331909843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331909840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56d3d0a48a564353be6d58e4c059607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

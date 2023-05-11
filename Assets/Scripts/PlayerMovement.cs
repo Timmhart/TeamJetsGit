@@ -32,6 +32,8 @@ public class PlayerMovement : MonoBehaviour
         cameraHarry.SetActive(true);
         imageGrace.SetActive(false);
         imageHarry.SetActive(true);
+        GameManager.instance.shootingGrace.enabled = false;
+        GameManager.instance.shootingHarry.enabled = true;
     }
 
     void Update()
@@ -49,7 +51,8 @@ public class PlayerMovement : MonoBehaviour
                 isFrozen_Player1 = false;
                 rbGrace.velocity = Vector2.zero;
                 rb = rbHarry;   
-                   
+                GameManager.instance.shootingGrace.enabled = false;
+                GameManager.instance.shootingHarry.enabled = true;
             }
             else
             {
@@ -60,7 +63,8 @@ public class PlayerMovement : MonoBehaviour
                 isFrozen_Player1 = true;
                 rbHarry.velocity = Vector2.zero;
                 rb = rbGrace;
-                
+                GameManager.instance.shootingGrace.enabled = true;
+                GameManager.instance.shootingHarry.enabled = false;
             }
         }
             movementHarry.x = Input.GetAxisRaw("HorizontalHarry");

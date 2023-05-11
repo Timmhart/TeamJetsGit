@@ -545,6 +545,7 @@ GameObject:
   - component: {fileID: 180454235}
   - component: {fileID: 180454237}
   - component: {fileID: 180454236}
+  - component: {fileID: 180454238}
   m_Layer: 0
   m_Name: Grace
   m_TagString: Grace
@@ -719,6 +720,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5675335, y: 0.2822442}
   m_EdgeRadius: 0
+--- !u!114 &180454238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180454226}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b9d51e0c03747bf82200b17bc45bb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 0}
+  bulletPrefab: {fileID: 0}
+  bulletForce: 20
+  bulletLifetime: 1
 --- !u!1 &204729790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,6 +1536,7 @@ GameObject:
   - component: {fileID: 770460295}
   - component: {fileID: 770460294}
   - component: {fileID: 770460296}
+  - component: {fileID: 770460297}
   m_Layer: 0
   m_Name: Harry
   m_TagString: Harry
@@ -1690,6 +1708,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   animator: {fileID: 770460294}
+--- !u!114 &770460297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770460285}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e974fd597dac2412985b42f6e3c95c6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 0}
+  bulletPrefab: {fileID: 0}
+  bulletForce: 20
+  bulletLifetime: 1
 --- !u!1 &791089310
 GameObject:
   m_ObjectHideFlags: 0
