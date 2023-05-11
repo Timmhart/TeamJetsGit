@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ControlsKnop : MonoBehaviour
+public class BackKnop : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Conrtolscherm");
+        SceneManager.LoadScene("Titelscherm 1");
     }
 }
  
