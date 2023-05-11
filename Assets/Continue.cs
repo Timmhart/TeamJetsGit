@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartKnop : MonoBehaviour
+public class Continue : MonoBehaviour
 {
-    public void StartGame()
+    public void LoadScene()
     {
-        SceneManager.LoadScene("Cutscene 1");
+        SceneManager.LoadScene("Grace");
     }
 }
- 

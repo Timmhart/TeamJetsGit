@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public GameObject quest0;
+    // public GameObject quest0;
     public GameObject quest1;
     public GameObject quest2;
     public float speed = 3.0f; // Enemy speed
@@ -17,8 +17,8 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        quest0.SetActive(true);
-        quest1.SetActive(false);
+        // quest0.SetActive(true);
+        quest1.SetActive(true);
         quest2.SetActive(false);
     }
     private void Update()
@@ -53,9 +53,9 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("Enemy is dead");
             Destroy(enemy);
-            quest0.SetActive(false);
-            quest1.SetActive(true);
-            quest2.SetActive(false);
+            // quest0.SetActive(false);
+            quest1.SetActive(false);
+            quest2.SetActive(true);
         }
     }
 }

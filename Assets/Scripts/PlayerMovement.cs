@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isFrozen_Player1 = false;
 
+
+
     void Start()
     {
         rbHarry = GameObject.FindGameObjectWithTag("Harry").GetComponent<Rigidbody2D>();
