@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class WinSchaap : MonoBehaviour
+public class WinScriptSchaap : MonoBehaviour
 {
     private int pointsToWin;
     private int currentPoints;
@@ -29,7 +29,6 @@ public class WinSchaap : MonoBehaviour
     private void LoadNextScene()
     {
         SceneManager.LoadScene("Farm");
-
     }
 
     public void AddPoints()

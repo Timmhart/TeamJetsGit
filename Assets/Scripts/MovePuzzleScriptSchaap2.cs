@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovePuzzleScript : MonoBehaviour
+public class MovePuzzleScriptSchaap2 : MonoBehaviour
 {
     public GameObject correctForm;
     private bool moving;
@@ -61,7 +61,7 @@ public class MovePuzzleScript : MonoBehaviour
             finish = true;
 
             
-            GameObject.Find("PointsHandler").GetComponent<WinScript>().AddPoints();
+            GameObject.Find("PointsHandler").GetComponent<WinScriptSchaap>().AddPoints();
         } else 
         {
             this.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);

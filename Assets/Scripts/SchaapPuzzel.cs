@@ -20,7 +20,7 @@ public class SchaapPuzzel : MonoBehaviour
         if (loadPuzzle == true)
         {
             loadPuzzle = false; //we dont want to load the scene multiple times
-            SceneManager.LoadScene("SchaapPuzzel");
+            SceneManager.LoadScene("Puzzle level harry 2");
         }   
     }
  
