@@ -759,7 +759,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1202b7f062f4e49f69b06c642918bf6e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -812,7 +812,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.41119432, y: -0.6167803}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -823,7 +823,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.5066667, y: 9.513333}
+  m_Size: {x: 8.329055, y: 10.746893}
   m_EdgeRadius: 0
 --- !u!1 &84109353
 GameObject:
@@ -4187,6 +4187,7 @@ GameObject:
   - component: {fileID: 473170135}
   - component: {fileID: 473170134}
   - component: {fileID: 473170136}
+  - component: {fileID: 473170137}
   m_Layer: 0
   m_Name: slager
   m_TagString: Untagged
@@ -4274,6 +4275,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 1160974724}
+--- !u!61 &473170137
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473170133}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.24, y: 14.73}
+    newSize: {x: 9.24, y: 14.73}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.24, y: 14.73}
+  m_EdgeRadius: 0
 --- !u!1 &516385388
 GameObject:
   m_ObjectHideFlags: 0
@@ -9803,7 +9830,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 391510509}
   dialogueBox: {fileID: 1160974724}
-  lines: []
+  lines:
+  - "Butcher: \u201COi! You two! You new here?\u201D"
+  - "Harry: \u201CWe\u2019re just traveling.\u201D"
+  - "Grace: \u201CWho are you?\u201D"
+  - "Hunnie: \u201CI am Hunnie, the butcher of this farm, I make sure no meat goes
+    to waste, not even the blood and skin.\u201D "
+  - "Grace: \u201C....\u201D"
+  - "Harry: \u201COkay then. So what do you do with it?\u201D"
+  - "Hunnie: \u201CMeat we eat, Fur we wur(wear), Skin we spin and blood we shut.\u201D"
+  - "Grace: \u201CBlood you shut?\u201D"
+  - "Harry: \u201CCan we have some of this shut blood?\u201D"
+  - "Hunnie: \u201CSure thing, I got too much blood anyway.\u201D"
+  - '*Harry receives a vial of animal blood*'
+  - "Harry: \u201CThank you!\u201D"
+  - "Hunnie: \u201CGladly, this way our livestock will never go to waste\u2026I mean
+    why would you murder an animal for just one thing, right?\u201D"
+  - "Harry: \u201CRight!\u201D"
+  - "Grace: \u201CHarry, can we go?\u201D "
   textSpeed: 0.03
   invokeTime: 0
 --- !u!1 &1201312638
@@ -12405,7 +12449,7 @@ MonoBehaviour:
   lines:
   - "Farmer: \u201CHello there, who might you be?\u201D"
   - "Harry: \u201CI am Harry and this is Grace. We are trying to s-\u201D"
-  - Grace nudges Harry
+  - '*Grace nudges Harry*'
   - "Harry: \u201DAuww, as I was saying, we are trying to s-\u201D"
   - "Grace: \u201CTrying to see the world!\u201D "
   - "Hennie: \u201CTrying to see the world? Aren\u2019t you a little young to do
@@ -12417,7 +12461,7 @@ MonoBehaviour:
   - "Hennie: \u201CI see, we\u2019ve got enough food. Would you like some bread and
     water?\u201D"
   - "Harry and Grace: \u201CYes, please.\u201D"
-  - -Harry and Grace receive bread and a flask of fresh water from the farmer-
+  - '*Harry and Grace receive bread and a flask of fresh water from the farmer*'
   - "Harry: \u201CThanks, we can definitely use that.\u201D"
   - "Grace: \u201CIs there anything we can do for you?\u201D"
   - "Hennie: \u201CI don\u2019t wanna bother you but do you think you can somehow
