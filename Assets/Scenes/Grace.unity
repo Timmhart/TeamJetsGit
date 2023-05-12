@@ -514,7 +514,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180454226}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.42, y: 2.11, z: 0}
+  m_LocalPosition: {x: 2.19, y: 1.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -585,7 +585,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.16042578, y: -0.8402705}
+  m_Offset: {x: -0.124700725, y: -1.3358951}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -596,7 +596,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.029752, y: 1.2234588}
+  m_Size: {x: 0.39782655, y: 0.23220968}
   m_EdgeRadius: 0
 --- !u!114 &180454239
 MonoBehaviour:
@@ -612,7 +612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1004445228}
   bulletPrefab: {fileID: 5460635038863686494, guid: 572a260f5327e4596be152037b64ccb5, type: 3}
-  bulletForce: 20
+  bulletForce: 5
   bulletLifetime: 1
 --- !u!1 &204729790
 GameObject:
@@ -2437,7 +2437,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004445227}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.63, y: -0.73, z: 0}
+  m_LocalPosition: {x: -0.2, y: -0.66, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

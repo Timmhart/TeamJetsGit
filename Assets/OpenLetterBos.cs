@@ -2,29 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OpenLetterKat : MonoBehaviour
+public class OpenLetterBos : MonoBehaviour
 {
-    public GameObject letterKat;
+    public GameObject letterBos;
 
     private void Awake()
     {
         Debug.Log("JOOOOEEEEEOOEOEOOEOEOEOEOOEOEOEOE");
-        letterKat.SetActive(false);
+        letterBos.SetActive(false);
     }
 
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Harry") || other.gameObject.CompareTag("Grace"))
         {
-            letterKat.SetActive(true);
+            letterBos.SetActive(true);
         }
     }
 
      private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Harry"))
+        if (other.gameObject.CompareTag("Harry") || other.gameObject.CompareTag("Grace"))
         {
-            letterKat.SetActive(false);
+            letterBos.SetActive(false);
         }
     }
 }
