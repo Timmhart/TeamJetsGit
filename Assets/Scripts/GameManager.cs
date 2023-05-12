@@ -17,9 +17,21 @@ public class GameManager : MonoBehaviour
     public ShootingHarry shootingHarry;
     public ShootingGrace1 shootingGrace;
 
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else 
+        {
+            Destroy(gameObject);
+        }
+    }
     private void Start()
     {
-        instance = this;
+        // instance = this;
         circleCollider.enabled = false;
         questTutorialGrace1.SetActive(true);
         questTutorialGrace2.SetActive(false);

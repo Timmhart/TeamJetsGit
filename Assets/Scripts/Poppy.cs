@@ -13,13 +13,7 @@ public class Poppy : MonoBehaviour
         poppyUI.SetActive(false);
         quest3.SetActive(false);
     }
-//   private void OnTriggerEnter2D(Collider2D other)
-//     {
-//         if(other.gameObject.name == "Grace" && other.gameObject.name == "Harry")
-//         {
-        
-//         }
-//     }
+
     void OnTriggerStay2D(Collider2D other)
     {
         if (Input.GetKeyDown(KeyCode.E))
