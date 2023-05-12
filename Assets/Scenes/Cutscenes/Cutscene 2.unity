@@ -2400,7 +2400,7 @@ MonoBehaviour:
   lines:
   - Click to continue
   textSpeed: 0.05
-  invokeTime: 76
+  invokeTime: 78
 --- !u!1 &1246771843
 GameObject:
   m_ObjectHideFlags: 0
