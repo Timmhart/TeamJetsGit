@@ -45,7 +45,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Farm.unity
     guid: d85b96175ed5442b4a92ec9cdb5b9543
   - enabled: 1
-    path: Assets/Scenes/Puzzles/SchaapPuzzel.unity
+    path: 
     guid: 1d5f8597e1328408da1970c144a6d8df
   - enabled: 1
     path: Assets/Scenes/Grot.unity
@@ -53,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FarmHuis.unity
     guid: 1d9c6c8d1e15b47d8a5fc09c37fe1849
+  - enabled: 1
+    path: Assets/Scenes/Keuze.unity
+    guid: 86cc3612b732140a5b40d2d45158a2eb
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: f95d232c481ee49c9a4bb226552ca1cd
   m_configObjects: {}
