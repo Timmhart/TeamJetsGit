@@ -4255,7 +4255,7 @@ MonoBehaviour:
   textComponent: {fileID: 1500943676}
   dialogueBox: {fileID: 1643043299}
   lines:
-  - Click the textbox to continue
+  - Click to continue
   textSpeed: 0.05
   invokeTime: 56
 --- !u!1 &1749227962
