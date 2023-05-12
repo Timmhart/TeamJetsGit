@@ -30,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
         rbHarry = GameObject.FindGameObjectWithTag("Harry").GetComponent<Rigidbody2D>();
         rbGrace = GameObject.FindGameObjectWithTag("Grace").GetComponent<Rigidbody2D>();
         rb = rbHarry;
+        rbHarry.mass = 0;
+        rbGrace.mass = 1000;
         cameraGrace.SetActive(false);
         cameraHarry.SetActive(true);
         imageGrace.SetActive(false);
@@ -55,6 +57,8 @@ public class PlayerMovement : MonoBehaviour
                 rb = rbHarry;   
                 GameManager.instance.shootingGrace.enabled = false;
                 GameManager.instance.shootingHarry.enabled = true;
+                rbGrace.mass = 1000;
+                rbHarry.mass = 0;
             }
             else
             {
@@ -67,6 +71,8 @@ public class PlayerMovement : MonoBehaviour
                 rb = rbGrace;
                 GameManager.instance.shootingGrace.enabled = true;
                 GameManager.instance.shootingHarry.enabled = false;
+                rbHarry.mass = 1000;
+                rbGrace.mass = 0;
             }
         }
             movementHarry.x = Input.GetAxisRaw("HorizontalHarry");
