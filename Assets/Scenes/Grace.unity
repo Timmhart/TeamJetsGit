@@ -4443,6 +4443,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5009532305385357633, guid: 99bcdf23f0a2043338460fe23ccd8941, type: 3}
+      propertyPath: lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5009532305385357633, guid: 99bcdf23f0a2043338460fe23ccd8941, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: Maybe you should try to wake up harry.
+      objectReference: {fileID: 0}
     - target: {fileID: 5009532306571255077, guid: 99bcdf23f0a2043338460fe23ccd8941, type: 3}
       propertyPath: m_Pivot.x
       value: 0
