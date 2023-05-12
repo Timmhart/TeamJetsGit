@@ -11,7 +11,6 @@ public class Redberry : MonoBehaviour
     {
         Debug.Log("Redberries not active");
         redberryUI.SetActive(false);
-
     }
 
     private void OnTriggerEnter2D(Collider2D other)

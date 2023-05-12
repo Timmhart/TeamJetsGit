@@ -31,13 +31,13 @@ public class PlayerMovement : MonoBehaviour
         rbGrace = GameObject.FindGameObjectWithTag("Grace").GetComponent<Rigidbody2D>();
         rb = rbHarry;
         rbHarry.mass = 0;
-        rbGrace.mass = 1000;
+        rbGrace.mass = 1000; 
         cameraGrace.SetActive(false);
         cameraHarry.SetActive(true);
         imageGrace.SetActive(false);
         imageHarry.SetActive(true);
-        // GameManager.instance.shootingGrace.enabled = false;
-        // GameManager.instance.shootingHarry.enabled = true;
+        GameManager.instance.shootingGrace.enabled = false;
+        GameManager.instance.shootingHarry.enabled = true;
     }
 
     void Update()
@@ -56,9 +56,7 @@ public class PlayerMovement : MonoBehaviour
                 rbGrace.velocity = Vector2.zero;
                 rb = rbHarry;   
                 GameManager.instance.shootingGrace.enabled = false;
-                GameManager.instance.shootingHarry.enabled = true;
-                rbGrace.mass = 1000;
-                rbHarry.mass = 0;
+                GameManager.instance.shootingHarry.enabled = false;
             }
             else
             {
@@ -71,8 +69,7 @@ public class PlayerMovement : MonoBehaviour
                 rb = rbGrace;
                 GameManager.instance.shootingGrace.enabled = true;
                 GameManager.instance.shootingHarry.enabled = false;
-                rbHarry.mass = 1000;
-                rbGrace.mass = 0;
+                
             }
         }
             movementHarry.x = Input.GetAxisRaw("HorizontalHarry");
@@ -84,17 +81,18 @@ public class PlayerMovement : MonoBehaviour
         {
                 animatorHarry.SetFloat("HorizontalHarry", movementHarry.x);
                 animatorHarry.SetFloat("VerticalHarry", movementHarry.y);
-                animatorHarry.SetFloat("SpeedHarry", movementHarry.sqrMagnitude);   
+                animatorHarry.SetFloat("SpeedHarry", movementHarry.sqrMagnitude);  
+                rbGrace.mass = 1000;
+                rbHarry.mass = 0;
         }
         else 
         {
             animatorGrace.SetFloat("HorizontalGrace", movementGrace.x);
-                animatorGrace.SetFloat("VerticalGrace", movementGrace.y);
-                animatorGrace.SetFloat("SpeedGrace", movementGrace.sqrMagnitude);  
-        }
-               
-                
-              
+            animatorGrace.SetFloat("VerticalGrace", movementGrace.y);
+            animatorGrace.SetFloat("SpeedGrace", movementGrace.sqrMagnitude);  
+            rbHarry.mass = 1000;
+            rbGrace.mass = 0;
+        }        
     }
 
     void FixedUpdate()
