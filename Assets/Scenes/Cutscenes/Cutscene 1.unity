@@ -3136,6 +3136,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 5970045302877665326, guid: 84a48500822b5354b85a9e66804dc1a9, type: 2}
     value: {fileID: 1765029510}
+  - key: {fileID: 7839534639770664098, guid: 84a48500822b5354b85a9e66804dc1a9, type: 2}
+    value: {fileID: 1765029510}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1473191407
@@ -3302,7 +3304,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9e4f33113fd67ac41b15917a7303e379, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
