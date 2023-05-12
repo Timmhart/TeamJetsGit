@@ -5,6 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class Continue : MonoBehaviour
 {
+    // public float timeToLoadNextScene = 56f;
+    // void Start()
+    // {
+    //     gameObject.SetActive(false);
+    // }
+
+    // void Update()
+    // {
+    //     Invoke("LoadScene", timeToLoadNextScene);
+    // }
     public void LoadScene()
     {
         SceneManager.LoadScene("Grace");

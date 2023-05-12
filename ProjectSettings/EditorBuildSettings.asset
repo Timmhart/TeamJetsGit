@@ -44,9 +44,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Farm.unity
     guid: d85b96175ed5442b4a92ec9cdb5b9543
-  - enabled: 1
+  - enabled: 0
     path: 
-    guid: 1d5f8597e1328408da1970c144a6d8df
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Grot.unity
     guid: 1eeee92a75cac4a79a0271b8c726bbea
