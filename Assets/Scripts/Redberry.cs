@@ -5,7 +5,7 @@ using UnityEngine;
 public class Redberry : MonoBehaviour
 {
     public GameObject redberryUI;
-    public bool berry = true;
+    // public bool berry = true;
 
     private void Awake()
     {
@@ -15,26 +15,28 @@ public class Redberry : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.name == "Grace" && other.gameObject.name == "Harry")
-        {
-            berry = true;
-        }
+        
     }
+
     void OnTriggerStay2D(Collider2D other)
     {
-        if (berry == false)
+       
+      if(other.gameObject.CompareTag("Harry"))
         {
-            berry = true; //we dont want to load the scene multiple times
-            // Destroy(gameObject);
-        }   
-    }
- 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E)) 
+                 if (Input.GetKeyDown(KeyCode.E)) 
         {
             redberryUI.SetActive(true);
             Destroy(gameObject);
         }
+        }
     }
+ 
+    // void Update()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.E)) 
+    //     {
+    //         redberryUI.SetActive(true);
+    //         Destroy(gameObject);
+    //     }
+    // }
 }

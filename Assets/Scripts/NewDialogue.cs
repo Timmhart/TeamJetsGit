@@ -78,6 +78,7 @@ void StartDialogue()
         else
         {
             gameObject.SetActive(false);
+            textComponent.gameObject.SetActive(false);
         }
     }
 }
