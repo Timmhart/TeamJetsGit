@@ -7,6 +7,7 @@ public class DialogueTrigger : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("Dialogue staat uit");
         dialogueBox.SetActive(false);
     }
 

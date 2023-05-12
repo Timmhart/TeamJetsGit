@@ -2182,7 +2182,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   redberryUI: {fileID: 645958926}
-  berry: 1
 --- !u!1 &320078093
 GameObject:
   m_ObjectHideFlags: 0
@@ -6523,6 +6522,82 @@ Transform:
   m_Father: {fileID: 993065939}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &870587319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 870587320}
+  - component: {fileID: 870587322}
+  - component: {fileID: 870587321}
+  m_Layer: 5
+  m_Name: Quest3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &870587320
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870587319}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.16505, y: 1.16505, z: 1.16505}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1714998817}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 705.57, y: 32.982}
+  m_SizeDelta: {x: 279.5, y: 41.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &870587321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870587319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6df6a6722c15244c99f59e480cc37bec, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &870587322
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870587319}
+  m_CullTransparentMesh: 1
 --- !u!1 &877530019
 GameObject:
   m_ObjectHideFlags: 0
@@ -8274,7 +8349,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1159759308 stripped
 Transform:
@@ -9600,7 +9675,7 @@ RectTransform:
   m_Children:
   - {fileID: 645958927}
   m_Father: {fileID: 1714998817}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12086,7 +12161,7 @@ RectTransform:
   m_Children:
   - {fileID: 1486923875}
   m_Father: {fileID: 1714998817}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12463,7 +12538,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   redberryUI: {fileID: 645958926}
-  berry: 1
 --- !u!58 &1700567777
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12630,6 +12704,7 @@ RectTransform:
   - {fileID: 1330701707}
   - {fileID: 1071853889}
   - {fileID: 1270588370}
+  - {fileID: 870587320}
   - {fileID: 1336646164}
   - {fileID: 1670177481}
   m_Father: {fileID: 263951748}
@@ -14061,7 +14136,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   redberryUI: {fileID: 645958926}
-  berry: 1
 --- !u!1 &1835752795
 GameObject:
   m_ObjectHideFlags: 0
@@ -14160,7 +14234,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   redberryUI: {fileID: 645958926}
-  berry: 1
 --- !u!4 &1840158842 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9097157760401559265, guid: a9a7b8cc687004726bc99ab41e1007ee, type: 3}
@@ -15217,6 +15290,7 @@ GameObject:
   - component: {fileID: 1982569384}
   - component: {fileID: 1982569383}
   - component: {fileID: 1982569382}
+  - component: {fileID: 1982569385}
   m_Layer: 0
   m_Name: kat
   m_TagString: Untagged
@@ -15317,6 +15391,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1982569385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982569381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b275d3cedfa40beb5ccd6d35e3dc4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MustLoadScene: 0
 --- !u!1 &1989729686
 GameObject:
   m_ObjectHideFlags: 0
