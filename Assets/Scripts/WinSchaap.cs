@@ -28,7 +28,7 @@ public class WinSchaap : MonoBehaviour
 
     private void LoadNextScene()
     {
-        SceneManager.LoadScene("Farm");
+        SceneManager.LoadScene("Farm 2");
 
     }
 
