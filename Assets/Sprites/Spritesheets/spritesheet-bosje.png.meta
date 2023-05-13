@@ -1,0 +1,1895 @@
+fileFormatVersion: 2
+guid: b4a3815864b0e4fbcbb11823a51e5c04
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet-bosje_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3124
+        width: 397
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba2ad6a29f02447ca63a7c3a53c5a12
+      internalID: 1887568010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_1
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 3124
+        width: 396
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa32b19aee06466faecffff9467b842
+      internalID: 1835298049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_2
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3124
+        width: 398
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a458bb6cbec4859a06ab27428075a9
+      internalID: -1625151566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_3
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 3124
+        width: 400
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa9f0f2a08064eeeb897def586c2668
+      internalID: 472415086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_4
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 3124
+        width: 400
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f30e71ec1c644c5b98b7b2aa41408b
+      internalID: -909619998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_5
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 3124
+        width: 401
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75418f202d0743599e25ed70316d7a8
+      internalID: -120210458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_6
+      rect:
+        serializedVersion: 2
+        x: 2890
+        y: 3124
+        width: 401
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2091dac91ee8f44b4b8d826dea7427df
+      internalID: -916725471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2685
+        width: 403
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9eb94be022f4032978930165789170
+      internalID: 474241711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2685
+        width: 404
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb34897f1cdb543f38728e64ab3ab053
+      internalID: -660756392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_9
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2685
+        width: 407
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a53dee799cd454f9fcb61719886804
+      internalID: 1964663883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_10
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 2685
+        width: 406
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7831a64b1924184af3a242dadbd055
+      internalID: -2114146446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_11
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2685
+        width: 401
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3795c9de0bba4293816f9199799bdc3
+      internalID: -799223125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_12
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 2908
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02554816f66314a43bdfc50954034485
+      internalID: 512522421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_13
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 2685
+        width: 402
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723af7b0c6fae41aa89308d9b5272089
+      internalID: -1797876874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_14
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2908
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f77227291e1498ea8bab4419007223
+      internalID: -1678955760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_15
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 2685
+        width: 404
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bcf07c5d0a04fb0acf1c97af3732ac
+      internalID: 893408891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_16
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 2908
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f9652ae17bd4f9a8f6950b6a902253
+      internalID: -2144144527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2246
+        width: 403
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fec6811846b048a79b7c85097cdc1c2
+      internalID: 1144916666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_18
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2469
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d307354d1171d45f5a01f30450020f88
+      internalID: 659681900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_19
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 2246
+        width: 406
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6ad6d06011b4421ad91f97a258c9e3
+      internalID: -201181218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_20
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 2469
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489ea7da5eef44bc2b7b1d222735050c
+      internalID: -1025650543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_21
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 2246
+        width: 407
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b005473160024d6ea2b650502ac0d67
+      internalID: 240757059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_22
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 2469
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c924ce93b9904004bc9eb12ca705b99
+      internalID: 1764461007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_23
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 2246
+        width: 408
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692471971009d4940af2891194c0d454
+      internalID: -2044322210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_24
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 2469
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e3c5d36673a4870bab623854655c70
+      internalID: -1013637906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_25
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 2246
+        width: 410
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a079b64000e4df5a1e643ff72c7798
+      internalID: 443076321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_26
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 2469
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabbba7f8cd3c471eadf1166b6ad6be8
+      internalID: 184927843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_27
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 2246
+        width: 410
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595a0cf503f77473e9ac753fc5bd7f68
+      internalID: 1753834187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_28
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2469
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478d4cfa894974932a59ac6eb7a60ad2
+      internalID: -2001570451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_29
+      rect:
+        serializedVersion: 2
+        x: 2876
+        y: 2246
+        width: 410
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7c676e6b8aa485d9c292fad5435f12
+      internalID: -1450302266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_30
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 2469
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b298a141c61cc48198d1a67fa98922cb
+      internalID: 1725953676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_31
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1806
+        width: 412
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a08d2cf3cbba4ca1a75d13d525d4ca2
+      internalID: 2017522739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_32
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2030
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ac75fde523c416594c30c6f8d7a070
+      internalID: 512891230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_33
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1807
+        width: 413
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7b50fdb8b794613b6c74f86ffaadb0
+      internalID: -2096247998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_34
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 2030
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7601ceeff74540cab9e480ab51cb7ef
+      internalID: 970679273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_35
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1806
+        width: 413
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3edfff0dad94506b96effe1a2de7c7
+      internalID: 1113610438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_36
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 2030
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1cf2832f1674ac791ee72590c1117b
+      internalID: 1477482570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_37
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1806
+        width: 415
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb41f54af3d534665bbb8770e5dd7a90
+      internalID: -664074642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_38
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 2030
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84cb2d680d0c4ecba8f5d056732f2b0
+      internalID: -998079902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_39
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1807
+        width: 415
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf29391a96cb748a0984aca13969f474
+      internalID: -754306898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_40
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 2030
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6af79dd4ecba414db578d1f621e90b0
+      internalID: -277366611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_41
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1807
+        width: 416
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3376acbb8619413f903d51dcde802d7
+      internalID: 2096190663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_42
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2030
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4da507ca5564ecd81fe52815d65189
+      internalID: -1542549311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_43
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 1807
+        width: 415
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ffd7ad084574856b2ff4c38bfa2340
+      internalID: -169862268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_44
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 2030
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a78da8b0dd274a8bb79222a657f616b
+      internalID: -1607247823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_45
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1368
+        width: 415
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1a2492f8379417d800b5c8bcbcd05c
+      internalID: 1712433869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_46
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1591
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67af0123b3eec408c948ab955d695982
+      internalID: -211976916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_47
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1368
+        width: 414
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314144cfb819f4daf90bbf141b3fd918
+      internalID: 875134214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_48
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1591
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ce9223c68ca4777bdb7e86340f0725
+      internalID: 913065359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_49
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1368
+        width: 415
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9f8f98080a54e9694081abbc1229ed
+      internalID: -709136000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_50
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1591
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab983fe63a6b42ebadd72181d861197
+      internalID: -1156178507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_51
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1368
+        width: 417
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c098da42da74e0096a6de408acd0e2
+      internalID: -1256688819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_52
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1591
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b0a76f11eba48169464483c70f5a57
+      internalID: -1282377625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_53
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1368
+        width: 415
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec38cfec6e82842c9829658c1ea5579b
+      internalID: 12005732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_54
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 1591
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719d5fbbdf8a943eb9baddad84772850
+      internalID: 477884617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_55
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1368
+        width: 416
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d685ad2628380494dbb0da144221e3a6
+      internalID: -36139602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_56
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1591
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e81db8262da498189e7268ca81bfe8
+      internalID: 1395728401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_57
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 1368
+        width: 415
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17f3606dae88405fa7ee1e04fccdc6b
+      internalID: -934350632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_58
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 1591
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6134935c989a480294b09310140f264
+      internalID: -1622693286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_59
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 929
+        width: 415
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63b891070d5d4cc39df88e28a19f013
+      internalID: -1314225719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_60
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1152
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0293e9c1699481d92743b4d5000ff6
+      internalID: 681305109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_61
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 929
+        width: 414
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad21c85c40f24cadad64439ce6162d1
+      internalID: 1481760091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_62
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1152
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37f0daa3a6b247d982003c36bf8fb4b
+      internalID: -1662208681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_63
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 929
+        width: 415
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224c1fa53f1ae4c84a0f5d06c73d04e7
+      internalID: -396874335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_64
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1152
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82057b19b79043a6ada0b1dd77ae94c
+      internalID: 546136184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_65
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 929
+        width: 417
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95146ce58cc941ab84db21a52c39b64
+      internalID: 15281248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_66
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1152
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6d1dec56b7c457ca4dc7601ae92231
+      internalID: -1791026941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_67
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 929
+        width: 415
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f5e1a14ef294c34a4889f550280d49
+      internalID: 1073122167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_68
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 1152
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef64a4c2adab413b8c7340c7385e092
+      internalID: 352649281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_69
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 929
+        width: 416
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78023261e8afa488f8397eb4beba1297
+      internalID: 100512173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_70
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1152
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148770c0a34324e30ae1f4b87ad3a811
+      internalID: -1193651320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_71
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 929
+        width: 420
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33e47d7a7d4f4459b01d14a8da1c855
+      internalID: -2031265207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_72
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 490
+        width: 421
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b10628e117f44a291d9de33f62a28b
+      internalID: -732546488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_73
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 490
+        width: 420
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4e6eab697ae4278b54493e038c2e8f
+      internalID: -723115723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_74
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 490
+        width: 422
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5850888079b064c32a119e49a14b9b5d
+      internalID: 1834115670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_75
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 490
+        width: 422
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c521f7ad324c4437a5b4c61dc75059e
+      internalID: 2030094588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_76
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 489
+        width: 421
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d033c2eae0547e78476d68e26c4cbc
+      internalID: -1041975688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_77
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 489
+        width: 422
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2bc1662ce844fed9ab48ffb7b5a50f
+      internalID: 2097771372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_78
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 489
+        width: 420
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbe35f7b92c345d2918f231a7bd6abf
+      internalID: -755942443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet-bosje_79
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 50
+        width: 421
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5600b7f813045ca9fd72d4346d6249
+      internalID: 606480450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesheet-bosje_0: 1887568010
+      spritesheet-bosje_1: 1835298049
+      spritesheet-bosje_10: -2114146446
+      spritesheet-bosje_11: -799223125
+      spritesheet-bosje_12: 512522421
+      spritesheet-bosje_13: -1797876874
+      spritesheet-bosje_14: -1678955760
+      spritesheet-bosje_15: 893408891
+      spritesheet-bosje_16: -2144144527
+      spritesheet-bosje_17: 1144916666
+      spritesheet-bosje_18: 659681900
+      spritesheet-bosje_19: -201181218
+      spritesheet-bosje_2: -1625151566
+      spritesheet-bosje_20: -1025650543
+      spritesheet-bosje_21: 240757059
+      spritesheet-bosje_22: 1764461007
+      spritesheet-bosje_23: -2044322210
+      spritesheet-bosje_24: -1013637906
+      spritesheet-bosje_25: 443076321
+      spritesheet-bosje_26: 184927843
+      spritesheet-bosje_27: 1753834187
+      spritesheet-bosje_28: -2001570451
+      spritesheet-bosje_29: -1450302266
+      spritesheet-bosje_3: 472415086
+      spritesheet-bosje_30: 1725953676
+      spritesheet-bosje_31: 2017522739
+      spritesheet-bosje_32: 512891230
+      spritesheet-bosje_33: -2096247998
+      spritesheet-bosje_34: 970679273
+      spritesheet-bosje_35: 1113610438
+      spritesheet-bosje_36: 1477482570
+      spritesheet-bosje_37: -664074642
+      spritesheet-bosje_38: -998079902
+      spritesheet-bosje_39: -754306898
+      spritesheet-bosje_4: -909619998
+      spritesheet-bosje_40: -277366611
+      spritesheet-bosje_41: 2096190663
+      spritesheet-bosje_42: -1542549311
+      spritesheet-bosje_43: -169862268
+      spritesheet-bosje_44: -1607247823
+      spritesheet-bosje_45: 1712433869
+      spritesheet-bosje_46: -211976916
+      spritesheet-bosje_47: 875134214
+      spritesheet-bosje_48: 913065359
+      spritesheet-bosje_49: -709136000
+      spritesheet-bosje_5: -120210458
+      spritesheet-bosje_50: -1156178507
+      spritesheet-bosje_51: -1256688819
+      spritesheet-bosje_52: -1282377625
+      spritesheet-bosje_53: 12005732
+      spritesheet-bosje_54: 477884617
+      spritesheet-bosje_55: -36139602
+      spritesheet-bosje_56: 1395728401
+      spritesheet-bosje_57: -934350632
+      spritesheet-bosje_58: -1622693286
+      spritesheet-bosje_59: -1314225719
+      spritesheet-bosje_6: -916725471
+      spritesheet-bosje_60: 681305109
+      spritesheet-bosje_61: 1481760091
+      spritesheet-bosje_62: -1662208681
+      spritesheet-bosje_63: -396874335
+      spritesheet-bosje_64: 546136184
+      spritesheet-bosje_65: 15281248
+      spritesheet-bosje_66: -1791026941
+      spritesheet-bosje_67: 1073122167
+      spritesheet-bosje_68: 352649281
+      spritesheet-bosje_69: 100512173
+      spritesheet-bosje_7: 474241711
+      spritesheet-bosje_70: -1193651320
+      spritesheet-bosje_71: -2031265207
+      spritesheet-bosje_72: -732546488
+      spritesheet-bosje_73: -723115723
+      spritesheet-bosje_74: 1834115670
+      spritesheet-bosje_75: 2030094588
+      spritesheet-bosje_76: -1041975688
+      spritesheet-bosje_77: 2097771372
+      spritesheet-bosje_78: -755942443
+      spritesheet-bosje_79: 606480450
+      spritesheet-bosje_8: -660756392
+      spritesheet-bosje_9: 1964663883
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
