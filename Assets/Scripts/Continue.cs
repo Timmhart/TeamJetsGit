@@ -17,6 +17,8 @@ public class Continue : MonoBehaviour
     // }
     public void LoadScene()
     {
+        Debug.Log("Grace is loading");
         SceneManager.LoadScene("Grace");
+        // Application.LoadLevel("Grace");
     }
 }
