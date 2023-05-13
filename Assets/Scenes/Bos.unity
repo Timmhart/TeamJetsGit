@@ -644,7 +644,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6991662898807697573, guid: 30b2aa300852b457ab811723f67a02ac, type: 3}
   m_PrefabInstance: {fileID: 1355010742}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1679273070}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01b9d51e0c03747bf82200b17bc45bb7, type: 3}
@@ -8280,6 +8280,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9a7b8cc687004726bc99ab41e1007ee, type: 3}
+--- !u!212 &1117694345 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1834969465971394046, guid: e215e72c4f4eb4e27b3190c05f0bab37, type: 3}
+  m_PrefabInstance: {fileID: 1695144164}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1127437900
 GameObject:
   m_ObjectHideFlags: 0
@@ -10072,6 +10077,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.54
       objectReference: {fileID: 0}
+    - target: {fileID: 6991662898807697570, guid: 30b2aa300852b457ab811723f67a02ac, type: 3}
+      propertyPath: healthScript
+      value: 
+      objectReference: {fileID: 1679273077}
     - target: {fileID: 6991662898807697579, guid: 30b2aa300852b457ab811723f67a02ac, type: 3}
       propertyPath: m_Name
       value: Grace
@@ -12517,6 +12526,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1679273070 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6991662898807697579, guid: 30b2aa300852b457ab811723f67a02ac, type: 3}
+  m_PrefabInstance: {fileID: 1355010742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1679273076 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6991662898807697580, guid: 30b2aa300852b457ab811723f67a02ac, type: 3}
+  m_PrefabInstance: {fileID: 1355010742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1679273077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679273070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de2a5bfc1742543c29bdad01ccf63492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 1
+  playerHarry: {fileID: 1117694345}
+  playerGrace: {fileID: 1679273076}
 --- !u!1001 &1695144164
 PrefabInstance:
   m_ObjectHideFlags: 0
