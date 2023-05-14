@@ -3960,7 +3960,6 @@ GameObject:
   - component: {fileID: 455847901}
   - component: {fileID: 455847900}
   - component: {fileID: 455847903}
-  - component: {fileID: 455847902}
   m_Layer: 0
   m_Name: red berries bush (1)
   m_TagString: Untagged
@@ -4035,18 +4034,6 @@ Transform:
   m_Father: {fileID: 977547231}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &455847902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455847899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bb8a0144c479400eb40272486faf40d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &455847903
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7979,7 +7966,6 @@ GameObject:
   m_Component:
   - component: {fileID: 877530021}
   - component: {fileID: 877530020}
-  - component: {fileID: 877530022}
   - component: {fileID: 877530023}
   m_Layer: 0
   m_Name: red berries bush (4)
@@ -8055,18 +8041,6 @@ Transform:
   m_Father: {fileID: 977547231}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &877530022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877530019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bb8a0144c479400eb40272486faf40d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &877530023
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11143,7 +11117,6 @@ GameObject:
   - component: {fileID: 1292644608}
   - component: {fileID: 1292644607}
   - component: {fileID: 1292644610}
-  - component: {fileID: 1292644609}
   m_Layer: 0
   m_Name: red berries bush (2)
   m_TagString: Untagged
@@ -11218,18 +11191,6 @@ Transform:
   m_Father: {fileID: 977547231}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1292644609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1292644606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bb8a0144c479400eb40272486faf40d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1292644610
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -13560,7 +13521,6 @@ GameObject:
   - component: {fileID: 1610394640}
   - component: {fileID: 1610394639}
   - component: {fileID: 1610394642}
-  - component: {fileID: 1610394641}
   m_Layer: 0
   m_Name: red berries bush
   m_TagString: Untagged
@@ -13635,18 +13595,6 @@ Transform:
   m_Father: {fileID: 977547231}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1610394641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1610394638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bb8a0144c479400eb40272486faf40d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1610394642
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -15736,7 +15684,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1899590699}
   - component: {fileID: 1899590698}
-  - component: {fileID: 1899590697}
   - component: {fileID: 1899590700}
   m_Layer: 0
   m_Name: BosjePoppy
@@ -15745,18 +15692,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1899590697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899590695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22e4df3449eee4ce486403ca3a8da3b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1899590698
 SpriteRenderer:
   m_ObjectHideFlags: 0
