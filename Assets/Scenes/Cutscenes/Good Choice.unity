@@ -208,8 +208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -336,7 +336,7 @@ PlayableDirector:
   - key: {fileID: 4555119919276459154, guid: f9fcadae13b002643a4d0ea6f47ac525, type: 2}
     value: {fileID: 569694743}
   - key: {fileID: -8126356263120169301, guid: f9fcadae13b002643a4d0ea6f47ac525, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 587905240}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &569694745
@@ -550,11 +550,11 @@ MonoBehaviour:
   textComponent: {fileID: 292478414}
   dialogueBox: {fileID: 693192079}
   lines:
-  - 'Harry stopped Levi from killing the troll which allowed Grace to free the troll.
-    The troll ended up killing Levi before Levi was able to kill the troll. The troll
-    returned back to the farm where he remained with the farmer and the butcher to
-    help them with heavy lifting. Harry and Grace returned to their parents briefly
-    until they were offered a home at the farmstead. '
+  - Harry stopped Levi from killing the troll which allowed Grace to free the troll.
+    The troll ended up killing Levi before Levi was able to kill the troll. Dogo
+    the troll returned back to the farm where he remained with Hennie and Hunnie
+    to help them with heavy lifting. Harry and Grace returned to their parents briefly
+    until they were offered a home at the farmstead. They now live happily ever after.
   textSpeed: 0.05
   invokeTime: 1
 --- !u!114 &693192082
@@ -796,8 +796,12 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 6551925877695879335, guid: 84a48500822b5354b85a9e66804dc1a9, type: 2}
     value: {fileID: 0}
-  - key: {fileID: 7839534639770664098, guid: 84a48500822b5354b85a9e66804dc1a9, type: 2}
-    value: {fileID: 0}
+  - key: {fileID: 5579422631953160979, guid: 84a48500822b5354b85a9e66804dc1a9, type: 2}
+    value: {fileID: 587905240}
+  - key: {fileID: -7717109529209516674, guid: 84a48500822b5354b85a9e66804dc1a9, type: 2}
+    value: {fileID: 569694743}
+  - key: {fileID: 1585418570044048731, guid: 84a48500822b5354b85a9e66804dc1a9, type: 2}
+    value: {fileID: 569694743}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1486164625
@@ -827,9 +831,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9e4f33113fd67ac41b15917a7303e379, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a610f207fa57c774bab93fff49a3dfe1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1032,8 +1036,8 @@ Camera:
   m_GameObject: {fileID: 2017860704}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

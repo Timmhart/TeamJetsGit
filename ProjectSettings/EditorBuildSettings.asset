@@ -57,6 +57,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Keuze.unity
     guid: 86cc3612b732140a5b40d2d45158a2eb
   - enabled: 1
+    path: Assets/Scenes/Cutscenes/Good Choice.unity
+    guid: ce61db5393374564baefc410339d4f90
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Bad Choice.unity
+    guid: 4e2dd8563ec1d574384be46526c000e8
+  - enabled: 0
     path: Assets/Scenes/Credits.unity
     guid: f95d232c481ee49c9a4bb226552ca1cd
   m_configObjects: {}
