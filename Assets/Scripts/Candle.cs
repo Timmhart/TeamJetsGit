@@ -2,8 +2,14 @@ using UnityEngine;
 
 public class Candle : MonoBehaviour
 {
-    // private bool isLit = false;
-    public GameObject prefab; // the prefab to instantiate on collision
+   
+    public GameObject prefab; 
+    [SerializeField] 
+    private AudioSource audioSource;
+    
+    void Start() 
+    {
+    }
 
    private void OnCollisionEnter2D(Collision2D collision)
 {
@@ -20,10 +26,14 @@ public class Candle : MonoBehaviour
             if (gameObject.name == "Candle1")
             {
                 gameManager.candle1 = true;
+                audioSource.enabled = true;
+                audioSource.Play();
             }
             else if (gameObject.name == "Candle2")
             {
                 gameManager.candle2 = true;
+                audioSource.enabled = true;
+                audioSource.Play();
             }
 
             // Call the EndGraceLevel method to check if both candles have been lit

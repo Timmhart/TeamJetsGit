@@ -11,11 +11,15 @@ public class EnemyBos : MonoBehaviour
     public Transform target1; // The first target's transform
     public Transform target2; // The second target's transform
     public GameObject enemy;
+    [SerializeField] 
+    private AudioSource audioSource;
+
 
     private void Update()
     {
         if (target1 != null && target2 != null)
         {
+            audioSource.Play();
             // Calculate distance to target1
             float distanceToTarget1 = Vector2.Distance(transform.position, target1.position);
             // Calculate distance to target2
@@ -44,6 +48,8 @@ public class EnemyBos : MonoBehaviour
         {
             Debug.Log("Enemy is dead");
             Destroy(enemy);
+            audioSource.enabled = true;
+            audioSource.Play();
         }
     }
 }

@@ -13,6 +13,8 @@ public class Enemy : MonoBehaviour
     public Transform target1; // The first target's transform
     public Transform target2; // The second target's transform
     public GameObject enemy;
+    [SerializeField] 
+    private AudioSource audioSource;
 
 
     private void Start()
@@ -56,6 +58,8 @@ public class Enemy : MonoBehaviour
             // quest0.SetActive(false);
             quest1.SetActive(false);
             quest2.SetActive(true);
+            audioSource.enabled = true;
+            audioSource.Play();
         }
     }
 }

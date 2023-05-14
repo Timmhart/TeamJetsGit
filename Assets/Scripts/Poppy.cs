@@ -7,6 +7,8 @@ public class Poppy : MonoBehaviour
     public GameObject poppyUI;
     public GameObject quest2;
     public GameObject quest3;
+     [SerializeField] 
+    private AudioSource audioSource;
 
     private void Start()
     {
@@ -22,6 +24,8 @@ public class Poppy : MonoBehaviour
             Destroy(gameObject);
             quest2.SetActive(false);
             quest3.SetActive(true);
+            audioSource.enabled = true;
+            audioSource.Play();
         }   
     }
 }
