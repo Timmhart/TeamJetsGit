@@ -7,6 +7,8 @@ public class LoadCutsceneKat2 : MonoBehaviour
 {
     public bool MustLoadScene = false;
     public GameObject talkUI;
+    [SerializeField] 
+    private AudioSource audioSource;
 
     private void Start()
     {
@@ -15,29 +17,35 @@ public class LoadCutsceneKat2 : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-            MustLoadScene = false;//we dont want to load the scene multible times    
-            talkUI.SetActive(true);
+        talkUI.SetActive(true);
     }
  
     void OnTriggerStay2D(Collider2D other)
     {
-        if (MustLoadScene == true)
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            MustLoadScene = false;//we dont want to load the scene multible times
-            SceneManager.LoadScene("Cutscene 3");
+            MustLoadScene = true;
+            audioSource.Play();
         }   
     }
 
-     void OnTriggerExit2D(Collider2D other)
+    void OnTriggerExit2D(Collider2D other)
     {  
-            talkUI.SetActive(false);
+        talkUI.SetActive(false);
     }
- 
+
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)) 
+        if (MustLoadScene)
         {
-            MustLoadScene = true;
+            StartCoroutine(LoadSceneAfterDelay());
+            MustLoadScene = false;
         }
+    }
+
+    IEnumerator LoadSceneAfterDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("Cutscene 3");
     }
 }
