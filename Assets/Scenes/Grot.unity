@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 180454230}
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 180454230}
@@ -1634,7 +1634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 180454230}
@@ -2872,12 +2872,12 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.03}
+  m_Offset: {x: 0, y: -0.11}
   serializedVersion: 2
-  m_Radius: 1.2848625
+  m_Radius: 0.23938501
 --- !u!95 &770460293
 Animator:
   serializedVersion: 5
@@ -2908,10 +2908,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02, y: -0.1}
+  m_Offset: {x: -0.04727459, y: 1.0363882}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5502182, y: 0.073876195}
@@ -2922,7 +2922,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4617691, y: 0.27}
+  m_Size: {x: 1.1184788, y: 2.5427766}
   m_EdgeRadius: 0
 --- !u!210 &770460295
 SortingGroup:
@@ -2949,7 +2949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 107017506}
   bulletPrefab: {fileID: 1917800840397383572, guid: 7efb060bef2e84aca87663c7909aa846, type: 3}
-  bulletForce: 5
+  bulletForce: 3
   bulletLifetime: 1
 --- !u!114 &770460297
 MonoBehaviour:
@@ -3327,7 +3327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 180454230}
@@ -5833,7 +5833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 180454230}
@@ -6063,7 +6063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 180454230}
