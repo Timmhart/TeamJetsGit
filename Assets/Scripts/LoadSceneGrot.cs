@@ -20,7 +20,7 @@ public class LoadSceneGrot : MonoBehaviour
         if (loadGrot == true)
         {
             loadGrot = false; //we dont want to load the scene multiple times
-            SceneManager.LoadScene("Grot");
+            SceneManager.LoadScene("Cutscene 6");
         }   
     }
  
