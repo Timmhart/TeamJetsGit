@@ -1334,7 +1334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -4640,7 +4640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -6680,7 +6680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -8854,7 +8854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -9199,7 +9199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -12522,7 +12522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -12629,7 +12629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -13088,6 +13088,10 @@ PrefabInstance:
     - target: {fileID: 1834969465971393799, guid: e215e72c4f4eb4e27b3190c05f0bab37, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834969465971393800, guid: e215e72c4f4eb4e27b3190c05f0bab37, type: 3}
+      propertyPath: bulletForce
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1834969465971394044, guid: e215e72c4f4eb4e27b3190c05f0bab37, type: 3}
       propertyPath: m_Name
@@ -14156,7 +14160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -14732,7 +14736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -14955,7 +14959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -16346,7 +16350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -16369,7 +16373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -16392,7 +16396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
@@ -17051,7 +17055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae682155ed32241729345a8a34730e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   stoppingDistance: 1
   sightRange: 5
   target1: {fileID: 695717939}
