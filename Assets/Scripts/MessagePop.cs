@@ -12,7 +12,7 @@ public class MessagePop : MonoBehaviour
         message.SetActive(false);
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.tag == "Grace" || other.gameObject.tag == "Harry")
         {
@@ -20,7 +20,7 @@ public class MessagePop : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit2D(Collision2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.tag == "Grace" || other.gameObject.tag == "Harry")
         {

@@ -7339,7 +7339,6 @@ GameObject:
   - component: {fileID: 1368114660}
   - component: {fileID: 1368114659}
   - component: {fileID: 1368114662}
-  - component: {fileID: 1368114661}
   m_Layer: 0
   m_Name: poppy
   m_TagString: Untagged
@@ -7414,22 +7413,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1368114661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1368114658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbff6071d095b40c7b52c5638e910c6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  poppyUI: {fileID: 549029539}
-  quest2: {fileID: 0}
-  quest3: {fileID: 0}
-  audioSource: {fileID: 0}
 --- !u!61 &1368114662
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -55,8 +55,8 @@ public class PlayerMovement : MonoBehaviour
                 isFrozen_Player1 = false;
                 rbGrace.velocity = Vector2.zero;
                 rb = rbHarry;   
-                GameManager.instance.shootingGrace.enabled = false;
-                GameManager.instance.shootingHarry.enabled = true;
+                GameManager2.instance.shootingGrace.enabled = false;
+                GameManager2.instance.shootingHarry.enabled = true;
             }
             else
             {
@@ -67,8 +67,8 @@ public class PlayerMovement : MonoBehaviour
                 isFrozen_Player1 = true;
                 rbHarry.velocity = Vector2.zero;
                 rb = rbGrace;
-                GameManager.instance.shootingGrace.enabled = true;
-                GameManager.instance.shootingHarry.enabled = false;
+                GameManager2.instance.shootingGrace.enabled = true;
+                GameManager2.instance.shootingHarry.enabled = false;
                 
             }
         }
