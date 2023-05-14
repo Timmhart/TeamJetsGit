@@ -19,7 +19,7 @@ public class EnemyBos : MonoBehaviour
     {
         if (target1 != null && target2 != null)
         {
-            audioSource.Play();
+            
             // Calculate distance to target1
             float distanceToTarget1 = Vector2.Distance(transform.position, target1.position);
             // Calculate distance to target2

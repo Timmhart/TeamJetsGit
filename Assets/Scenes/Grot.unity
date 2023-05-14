@@ -833,6 +833,7 @@ MonoBehaviour:
   target1: {fileID: 180454230}
   target2: {fileID: 770460288}
   enemy: {fileID: 217687027}
+  audioSource: {fileID: 0}
 --- !u!1 &226669369
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +968,7 @@ MonoBehaviour:
   target1: {fileID: 180454230}
   target2: {fileID: 770460288}
   enemy: {fileID: 237481072}
+  audioSource: {fileID: 0}
 --- !u!1 &253182257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1640,6 +1642,7 @@ MonoBehaviour:
   target1: {fileID: 180454230}
   target2: {fileID: 770460288}
   enemy: {fileID: 454768612}
+  audioSource: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3107,7 +3110,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &799578255
 GameObject:
@@ -3461,6 +3464,7 @@ MonoBehaviour:
   target1: {fileID: 180454230}
   target2: {fileID: 770460288}
   enemy: {fileID: 899465131}
+  audioSource: {fileID: 0}
 --- !u!1 &921761348
 GameObject:
   m_ObjectHideFlags: 0
@@ -5967,6 +5971,7 @@ MonoBehaviour:
   target1: {fileID: 180454230}
   target2: {fileID: 770460288}
   enemy: {fileID: 1856149639}
+  audioSource: {fileID: 0}
 --- !u!1 &1897496185
 GameObject:
   m_ObjectHideFlags: 0
@@ -6197,6 +6202,7 @@ MonoBehaviour:
   target1: {fileID: 180454230}
   target2: {fileID: 770460288}
   enemy: {fileID: 1950053584}
+  audioSource: {fileID: 0}
 --- !u!1 &1983553242
 GameObject:
   m_ObjectHideFlags: 0
@@ -6576,7 +6582,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2065045096}
-  - component: {fileID: 2065045095}
+  - component: {fileID: 2065045097}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6584,27 +6590,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2065045095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065045094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de512bc83be914b6298d28870aeba762, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  candle1: 0
-  candle2: 0
-  circleCollider: {fileID: 0}
-  questTutorialGrace1: {fileID: 0}
-  questTutorialGrace2: {fileID: 0}
-  loadSceneDelay: 1
-  respawnPos: {x: 0, y: 0, z: 0}
-  shootingHarry: {fileID: 770460296}
-  shootingGrace: {fileID: 180454237}
 --- !u!4 &2065045096
 Transform:
   m_ObjectHideFlags: 0
@@ -6620,6 +6605,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2065045097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065045094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18502ff2da2144b9687ed054defc6ec4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingHarry: {fileID: 770460296}
+  shootingGrace: {fileID: 180454237}
 --- !u!1001 &2144021526
 PrefabInstance:
   m_ObjectHideFlags: 0

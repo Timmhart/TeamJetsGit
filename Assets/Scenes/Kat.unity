@@ -5281,7 +5281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 910933776}
-  - component: {fileID: 910933775}
+  - component: {fileID: 910933777}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5289,27 +5289,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &910933775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910933773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de512bc83be914b6298d28870aeba762, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  candle1: 0
-  candle2: 0
-  circleCollider: {fileID: 0}
-  questTutorialGrace1: {fileID: 0}
-  questTutorialGrace2: {fileID: 0}
-  loadSceneDelay: 1
-  respawnPos: {x: 0, y: 0, z: 0}
-  shootingHarry: {fileID: 770460297}
-  shootingGrace: {fileID: 180454236}
 --- !u!4 &910933776
 Transform:
   m_ObjectHideFlags: 0
@@ -5325,6 +5304,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &910933777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910933773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18502ff2da2144b9687ed054defc6ec4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingHarry: {fileID: 770460297}
+  shootingGrace: {fileID: 180454236}
 --- !u!1 &944196129
 GameObject:
   m_ObjectHideFlags: 0
@@ -7436,6 +7429,7 @@ MonoBehaviour:
   poppyUI: {fileID: 549029539}
   quest2: {fileID: 0}
   quest3: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!61 &1368114662
 BoxCollider2D:
   m_ObjectHideFlags: 0
