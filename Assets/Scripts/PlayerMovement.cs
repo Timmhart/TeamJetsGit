@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
                 rbGrace.velocity = Vector2.zero;
                 rb = rbHarry;   
                 GameManager.instance.shootingGrace.enabled = false;
-                GameManager.instance.shootingHarry.enabled = false;
+                GameManager.instance.shootingHarry.enabled = true;
             }
             else
             {
