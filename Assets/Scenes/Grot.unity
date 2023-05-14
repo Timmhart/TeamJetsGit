@@ -167,6 +167,7 @@ GameObject:
   - component: {fileID: 89857980}
   - component: {fileID: 89857979}
   - component: {fileID: 89857981}
+  - component: {fileID: 89857982}
   m_Layer: 0
   m_Name: DEZE MOET IN TRALIE VERANDEREN
   m_TagString: Untagged
@@ -234,7 +235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 89857978}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.12, y: 4.48, z: 0}
+  m_LocalPosition: {x: 11.12, y: 4.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -257,6 +258,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.385
+--- !u!114 &89857982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89857978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90bad56d043674785bcbad52b5faebe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2131797109376521610, guid: 944f29f0370704e9eab9deee9da4a9d4, type: 3}
+  quest1: {fileID: 348803596}
+  quest2: {fileID: 684328178}
 --- !u!1 &107017505
 GameObject:
   m_ObjectHideFlags: 0
@@ -2222,7 +2238,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 933f7483a032d4b74afd83fdbeeb7ff8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  traanUI: {fileID: 0}
+  traanUI: {fileID: 1625113837}
+  quest1: {fileID: 348803596}
+  quest2: {fileID: 684328178}
+  quest3: {fileID: 1506028490}
 --- !u!1 &642630228
 GameObject:
   m_ObjectHideFlags: 0
@@ -5648,6 +5667,7 @@ GameObject:
   - component: {fileID: 1805892619}
   - component: {fileID: 1805892618}
   - component: {fileID: 1805892620}
+  - component: {fileID: 1805892621}
   m_Layer: 0
   m_Name: heksenpot
   m_TagString: Untagged
@@ -5738,6 +5758,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.2866666
+--- !u!114 &1805892621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805892617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32bbc6e67426242ae8dcd3ba7f3f0954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poppy: {fileID: 698627119}
+  redberry: {fileID: 967405919}
+  blood: {fileID: 968536627}
+  traan: {fileID: 1625113837}
 --- !u!1001 &1845247880
 PrefabInstance:
   m_ObjectHideFlags: 0
